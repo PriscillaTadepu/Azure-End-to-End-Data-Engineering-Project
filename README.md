@@ -60,7 +60,8 @@ Kaggle AdventureWorks Dataset
 #### Step 3: Data Ingestion using Azure Data Factory
 - Created an Azure Data Factory pipeline.
 - Configured a Copy Activity to read CSV files directly from the GitHub repository.
-- Loaded the raw data into Azure Data Lake Storage Gen2.
+- Created both Static pipeline ingestion and Dynamic pipeline ingestion
+- Loaded the raw data into Azure Data Lake Storage Gen2 
 
 ---
 
@@ -76,17 +77,14 @@ Kaggle AdventureWorks Dataset
 - Processed the Bronze data using **PySpark** notebooks.
 - Performed:
   - Data Cleaning
-  - Null Value Handling
   - Duplicate Removal
   - Data Validation
-  - Data Type Conversion
   - Business Transformations
 
 ---
 
 #### Step 6: Silver Layer (Cleaned Data)
 - Stored the transformed data in the **Silver** layer.
-- Saved the processed data in **Delta format**.
 - Created optimized datasets for analytics.
 
 ---
