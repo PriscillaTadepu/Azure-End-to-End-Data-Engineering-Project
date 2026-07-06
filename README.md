@@ -13,11 +13,6 @@ Technologies Used:
 - SQL
 - GitHub
 
-
-
-
-
-
 ## 🏗️ Architecture Diagram
 <img width="1536" height="1024" alt="Project Architecture" src="https://github.com/user-attachments/assets/d40afa61-42a1-418b-ae11-6474f8d1ec75" />
 
